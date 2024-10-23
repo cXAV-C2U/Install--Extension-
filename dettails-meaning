@@ -1,0 +1,227 @@
+ExeC_PouTTeUp{
+    
+    PARTPP{_EXplEuC_DeFouRm_}{class}{
+    reload{_ParTeUp_DeFine_}.Perform{_ReverSe_RanDom_PaRt_}{
+    }   
+    }{class}{
+    PARTPP{_EXplEuC_DeFouRm_}.ChannEl{1}{
+    _Channel_Poutteup_Offeur_Part{_Woulleum_}{
+    Woulleum.UseChannEl{_RanDom_ChannEl_PaRt}{
+    RanDom_PaRt{1}.Woulleum_Poutch{POUtTT_II}{
+    PouTTeUp{1}.RanDom_PaRt{PARTPP}{
+    }{class}{
+    PARTPP{_EXplEuC_DeFouRm_}.ChannEl{2}{
+    _Channel_Poutteup_Offeur_Part{_Woulleum_}{
+    Woulleum.UseChannEl{_RanDom_ChannEl_PaRt}{
+    RanDom_PaRt{2}.Woulleum_Poutch{POUtTT_II}{
+    PouTTeUp{2}.RanDom_PaRt{PARTPP}{
+    }{class}{
+    PARTPP{_EXplEuC_DeFouRm_}.ChannEl{3}{
+    _Channel_Poutteup_Offeur_Part{_Woulleum_}{
+    Woulleum.UseChannEl{_RanDom_ChannEl_PaRt}{
+    RanDom_PaRt{3}.Woulleum_Poutch{POUtTT_II}{
+    PouTTeUp{3}.RanDom_PaRt{PARTPP}{
+    }{class}{
+    PARTPP{_EXplEuC_DeFouRm_}.ChannEl{4}{
+    _Channel_Poutteup_Offeur_Part{_Woulleum_}{
+    Woulleum.UseChannEl{_RanDom_ChannEl_PaRt}{
+    RanDom_PaRt{4}.Woulleum_Poutch{POUtTT_II}{
+    PouTTeUp{4}.RanDom_PaRt{PARTPP}{
+    class Poutteup{1}{
+     in{Poutteup_Channel}{
+         =Channel.Part{Use.Offeur.Load}{
+             Load #Exec{}^Shap.PARTPP
+             PaRtP.W++
+             PaRtP.W++
+             +PaRtP{Exec_PaRt} = PoutT{1}{
+                 Channel{load.EuThour};
+            Load.I{i %^ C}{
+            Load.I{b %^ C}{
+            Load.I{a %^ C}{
+            Load.I{u %^ C}{
+            Oum.Circ{Exec.Load}{
+            Load.W++{RanDom.Fix}{
+                I{c}.i{p0}{
+                1.Oum = p0
+                }
+                I{c}.b{p0}{
+                2.Oum = p0
+                }
+                I{c}.a{p0}{
+                3.Oum = p0
+                }
+                I{c}.u{p0}{
+                4.Oum = p0
+                }
+                
+                
+            }{class}{
+             p0{PoutT}.Load{Oum}{
+                 1.Oum = p0{
+                Exec{_Channel_Part_}
+                 }{class}{
+             p0{PoutT}.Reload{Oum}{
+                 1.Oum = p0{
+                Exec{_Disque_Part_}{
+                }{class}{
+                p0{PoutT}.Define{Part}{
+                 1.Oum = p0{
+             ExpleUc_DeFouRm{_RanDom_ParT_}{
+                 PARTPP{p0.pOutT}{
+                     pOutT.a{}{
+                         in{Disque_Part}{
+                    is : 
+                        full;
+            then{_Define_ParT_}.Sellect{
+                PARTPP{a}.Define{
+                    _Disque_Part{mb}
+                }
+                PARTPP{b}.Define{
+                    _Disque_Part{mb}
+                }
+                PARTPP{c}.Define{
+                    _Disque_Part{mb}
+                }
+                
+            }{
+                load{in}{
+                    PARTPP{=127}{
+                        mb{Gb}.Exec{
+                    Part.Define{x => %}{
+                        %*a,b,  {class}{
+                        c{Exec}.To{
+                        Disque_Part{1.Oum}{
+                    in{p0=17.Oum}{
+                        load;
+                    }{_Define_ParT_}{
+                        class{}.load{}{
+                    ViewTo{classLine:66}{
+                       LampE.Led{}{
+                           led.Cam{Oum ^* Oum}{
+            SectiO. -Cam Ipclass{"a"}{
+                Define a{ip}.class{
+                    a To class{"a"}:
+                        b = Gb{
+                crypte{b %^ End; b -PARTPP;}{
+        then:
+              b{To %load; %Back;}{
+                  load Kilo.Oum;
+                  Back class;
+            class = CamP0{
+                in{End == 0.p0; a * Oum;}{
+    IpRoot=Serial{led.Cam} -PARTPP{Crypte}{
+            PARTPP{To}{
+                Disque_Part{"c"}{
+             in{a =^ 127; a.Define;}{
+             in{a back; a load;}{
+                 End{PARTPP.p0; Oum=%0;}{
+            CreuSapE{ExpleUc_DeFouRm}.0{
+                0{:in}{
+                    p0{Define_Part}{
+                in{:in}{PARTPP}{
+                    Back;
+                }{
+                    Then:
+                 Define{CtP-AllPart%; CtP-DefinePart%;}{
+             in{All;}{
+                 =0PARTPP;
+                 Back;
+             }       
+                        }
+                }
+                    }
+                }
+            }
+                 }
+             }
+             }       
+                }
+            }
+        }
+                }
+            }
+              }
+                }
+                        }
+                }
+            }
+                           }
+                       } 
+                    }   
+                        }
+                    }
+                        
+                    }
+                        }
+                        }
+                        }
+                    }
+                        }
+                    }
+                }
+            }
+                          
+                         
+                         }
+                     }
+                 }
+             }
+                 }
+                }
+                }
+                 }
+             }   
+                     
+                 }
+             }
+            }
+            }
+            }
+            }
+            }
+            }
+             }
+         }
+     }   
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }   
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    
+
+        
+        
+        
+        
+        
+    
+    }
+    }    
+    
+    }
+    }
+    }
+    
+}
+

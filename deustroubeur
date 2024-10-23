@@ -1,0 +1,70 @@
+#!/bin/bash
+
+# This script sets up and manages a DHCP server using dnsmasq
+
+# Check if dnsmasq is installed, if not, install it
+if ! command -v dnsmasq &> /dev/null; then
+    echo "dnsmasq not found. Installing..."
+    sudo apt update
+    sudo apt install -y dnsmasq
+fi
+
+# Create or overwrite the dnsmasq configuration
+cat <<EOL | sudo tee /etc/dnsmasq.conf
+# Configuration for dnsmasq DHCP server
+interface=eth0                       # Replace with your network interface
+dhcp-range=192.168.1.100,192.168.1.200,12h  # DHCP range
+dhcp-option=3,192.168.1.1            # Gateway
+dhcp-option=6,8.8.8.8,8.8.4.4        # DNS servers
+log-queries
+log-dhcp
+EOL
+
+# Start dnsmasq service
+echo "Starting DHCP service..."
+sudo systemctl restart dnsmasq
+
+# Check the status of dnsmasq
+if systemctl status dnsmasq | grep "active (running)" > /dev/null; then
+    echo "DHCP service is running."
+else
+    echo "Failed to start DHCP service."
+    exit 1
+fi
+
+# Function to reset DHCP settings
+reset_dhcp_settings() {
+    echo "Resetting DHCP settings..."
+    sudo systemctl restart dnsmasq
+    echo "DHCP settings reset."
+}
+
+# Function to display current DHCP leases
+display_leases() {
+    echo "Current DHCP leases:"
+    sudo cat /var/lib/misc/dnsmasq.leases
+}
+
+# Main menu loop
+while true; do
+    echo "1. Reset DHCP settings"
+    echo "2. Display current DHCP leases"
+    echo "3. Exit"
+    read -p "Choose an option: " choice
+
+    case $choice in
+        1)
+            reset_dhcp_settings
+            ;;
+        2)
+            display_leases
+            ;;
+        3)
+            echo "Exiting..."
+            break
+            ;;
+        *)
+            echo "Invalid choice. Please try again."
+            ;;
+    esac
+done
